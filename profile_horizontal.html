@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Profile | CSS</title>
+    <style>
+        body {
+           background-color: #333;
+       }
+
+       .wrapper {
+           margin-top: 100px;
+           margin-left: 100px;
+          width: 300px;
+          height: 300px;
+          border: 10px solid #8B0000;
+          border-radius: 160px;
+          overflow: hidden;
+          box-shadow: 5px 5px 10px 3px black;
+       }
+
+       .profile {
+          border: 1px solid #333;
+          width: 600px;
+          height: 300px;
+          transition: 2s;
+          text-align: center;
+          
+        }
+
+        .profile:hover {
+            margin-left: -301px;
+        }
+
+        .profile-picture {
+          width: 300px;
+          float: left;
+        }
+
+      .profile-name {
+          color:white;
+          font-size: 27px;
+          font-style: italic;
+          margin-top: 80px;
+          margin-bottom: 2px;
+      }
+        
+
+      .profile-bio {
+          color: #ddd;
+        }
+
+      .profile-link {
+          color:orange;
+          text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="profile">
+         <img  class="profile-picture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-TjDxbTcq4z1dgQ0QxlrKQI9MpcertHAQ2g&usqp=CAU" alt="">
+          <h2 class="profile-name">John Doe</h2>
+          <p class="profile-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque error veritatis eaque nostrum in corporis!</p>
+          <a class="profile-link" href="">Read More</a>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
