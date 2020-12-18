@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile CSS: EM Unit</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #222;
+            color: azure;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contacts li {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            font-size: 15px;
+        }
+
+        .contacts li * {
+            vertical-align: middle;
+        }
+
+        .contacts li img {
+            height: 3em;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
+
+        .contacts li button {
+            height: 3em;
+            border: 0;
+
+        }
+        .contacts li button:first-of-type {
+            margin-left: 2em;
+        }
+
+    </style>
+    
+</head>
+<body>
+     <div class="contacts">
+         <h2>Contacts</h2>
+         <ul>
+             <li>
+                 <img src="avataaars.png" alt="John Doe">
+                 John Doe
+                 <button>+ADD</button>
+                 <button>Write Message</button>
+                 <button>Block</button>
+             </li>
+         </ul>
+     </div>
+</body>
+</html>
