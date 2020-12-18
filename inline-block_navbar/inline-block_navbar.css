@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* LAYOUT */
+
+.navbar {
+    background-color: #222;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar>ul {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.navbar>ul>li {
+
+    display: inline-block;
+    vertical-align: middle;
+    /* padding: 20px 10px; */
+    padding: 1em 0.5em;
+}
+
+.navbar>ul.branding {
+    /* margin-right: 100px; */
+    margin-right: 5em;
+    margin-left: 2.5em;
+    
+}
+
+.navbar>ul.client {
+    /* margin-left: 180px; */
+    margin-left: 9em;
+}
+
+.navbar>ul.branding li:first-child {
+    font-size: 2em;
+}
+
+
